@@ -1,0 +1,65 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+#about {
+    text-align: center;
+    padding: 2rem;
+}
+
+#about img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#projects {
+    padding: 2rem;
+}
+
+.project {
+    margin-bottom: 2rem;
+}
+
+.project img {
+    max-width: 100%;
+}
+
+#resume, #contact {
+    text-align: center;
+    padding: 2rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+/* Add this style to change the skills color to blue */
+#skills ul {
+    list-style-type: none;
+    color: blue;
+}
